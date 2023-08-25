@@ -22,7 +22,7 @@ k2=double(k);
 k3=(k2-min)./(max-min);
  
 % Multiply with maximum possible value.
-k4=k3.*256;
+k4=k3.*255;
  
 % Convert the final result into uint8.
  k5=uint8(k4);
